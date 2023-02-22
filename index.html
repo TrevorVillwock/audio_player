@@ -11,6 +11,8 @@
                 <span id="start-box" class="close" onclick="closeModal()">Click to start</span>
             </div>
         </div>
+        <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept-->
+        <input type="file" onchange="handleFile()" accept="audio/*">
         <button onclick="start()">start</button>
         <button onclick="stop()">stop</button>
     </body>
