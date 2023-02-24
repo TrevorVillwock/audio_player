@@ -12,7 +12,7 @@
             </div>
         </div>
         <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept-->
-        <input type="file" onchange="handleFile()" accept="audio/*">
+        <input id="file-input" type="file" onchange="handleFiles()" accept="audio/*" multiple="multiple">
         <button onclick="start()">start</button>
         <button onclick="stop()">stop</button>
     </body>
